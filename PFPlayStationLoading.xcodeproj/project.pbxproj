@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9234C23D1DAB697800EA8842 /* PFPlayStationLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9234C23C1DAB697800EA8842 /* PFPlayStationLoadingView.m */; };
+		9234C2401DAB6EAA00EA8842 /* NSTimer+PFPlayStationLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 9234C23F1DAB6EAA00EA8842 /* NSTimer+PFPlayStationLoading.m */; };
 		92DC161A1D92636F001BA961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DC16191D92636F001BA961 /* main.m */; };
 		92DC161D1D92636F001BA961 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DC161C1D92636F001BA961 /* AppDelegate.m */; };
 		92DC16201D92636F001BA961 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DC161F1D92636F001BA961 /* ViewController.m */; };
 		92DC16231D92636F001BA961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DC16211D92636F001BA961 /* Main.storyboard */; };
 		92DC16251D92636F001BA961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DC16241D92636F001BA961 /* Assets.xcassets */; };
 		92DC16281D92636F001BA961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DC16261D92636F001BA961 /* LaunchScreen.storyboard */; };
+		92DC16351D9263EB001BA961 /* PFPlayStationLoadingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DC16341D9263EB001BA961 /* PFPlayStationLoadingItem.m */; };
+		92DC16371D9265AA001BA961 /* PFPlayStationLoading.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92DC16361D9265AA001BA961 /* PFPlayStationLoading.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9234C23B1DAB697800EA8842 /* PFPlayStationLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFPlayStationLoadingView.h; sourceTree = "<group>"; };
+		9234C23C1DAB697800EA8842 /* PFPlayStationLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFPlayStationLoadingView.m; sourceTree = "<group>"; };
+		9234C23E1DAB6EAA00EA8842 /* NSTimer+PFPlayStationLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+PFPlayStationLoading.h"; sourceTree = "<group>"; };
+		9234C23F1DAB6EAA00EA8842 /* NSTimer+PFPlayStationLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+PFPlayStationLoading.m"; sourceTree = "<group>"; };
 		92DC16151D92636F001BA961 /* PFPlayStationLoading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PFPlayStationLoading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92DC16191D92636F001BA961 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92DC161B1D92636F001BA961 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +34,9 @@
 		92DC16241D92636F001BA961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92DC16271D92636F001BA961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92DC16291D92636F001BA961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DC16331D9263EB001BA961 /* PFPlayStationLoadingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFPlayStationLoadingItem.h; sourceTree = "<group>"; };
+		92DC16341D9263EB001BA961 /* PFPlayStationLoadingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFPlayStationLoadingItem.m; sourceTree = "<group>"; };
+		92DC16361D9265AA001BA961 /* PFPlayStationLoading.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PFPlayStationLoading.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +53,7 @@
 		92DC160C1D92636F001BA961 = {
 			isa = PBXGroup;
 			children = (
+				92DC16321D92638B001BA961 /* Classes */,
 				92DC16171D92636F001BA961 /* PFPlayStationLoading */,
 				92DC16161D92636F001BA961 /* Products */,
 			);
@@ -79,6 +91,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		92DC16321D92638B001BA961 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				92DC16361D9265AA001BA961 /* PFPlayStationLoading.bundle */,
+				92DC16331D9263EB001BA961 /* PFPlayStationLoadingItem.h */,
+				92DC16341D9263EB001BA961 /* PFPlayStationLoadingItem.m */,
+				9234C23B1DAB697800EA8842 /* PFPlayStationLoadingView.h */,
+				9234C23C1DAB697800EA8842 /* PFPlayStationLoadingView.m */,
+				9234C23E1DAB6EAA00EA8842 /* NSTimer+PFPlayStationLoading.h */,
+				9234C23F1DAB6EAA00EA8842 /* NSTimer+PFPlayStationLoading.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,7 +136,6 @@
 				TargetAttributes = {
 					92DC16141D92636F001BA961 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 37Y29WD9SV;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -141,6 +166,7 @@
 				92DC16281D92636F001BA961 /* LaunchScreen.storyboard in Resources */,
 				92DC16251D92636F001BA961 /* Assets.xcassets in Resources */,
 				92DC16231D92636F001BA961 /* Main.storyboard in Resources */,
+				92DC16371D9265AA001BA961 /* PFPlayStationLoading.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +177,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9234C23D1DAB697800EA8842 /* PFPlayStationLoadingView.m in Sources */,
+				92DC16351D9263EB001BA961 /* PFPlayStationLoadingItem.m in Sources */,
+				9234C2401DAB6EAA00EA8842 /* NSTimer+PFPlayStationLoading.m in Sources */,
 				92DC16201D92636F001BA961 /* ViewController.m in Sources */,
 				92DC161D1D92636F001BA961 /* AppDelegate.m in Sources */,
 				92DC161A1D92636F001BA961 /* main.m in Sources */,
@@ -273,8 +302,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 37Y29WD9SV;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PFPlayStationLoading/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.Cee.PFPlayStationLoading;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,8 +315,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 37Y29WD9SV;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PFPlayStationLoading/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.Cee.PFPlayStationLoading;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +343,7 @@
 				92DC162E1D92636F001BA961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
